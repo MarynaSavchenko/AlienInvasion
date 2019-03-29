@@ -15,7 +15,7 @@ class Alien(Sprite):
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height
 
-        self.x =float(self.rect.x)
+        self.x = float(self.rect.x)
 
     def update(self):
         """Move alien to the right"""
